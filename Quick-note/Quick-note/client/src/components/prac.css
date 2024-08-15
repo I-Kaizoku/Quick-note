@@ -1,0 +1,48 @@
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+    overflow: hidden;
+    padding: 0px;
+}
+.card1 div{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1 div div{
+    height: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+}
+.card1 div div img{
+    height: 100%;
+    width: auto;
+}
+.no1{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: red;
+}
+.no2{
+    font-size: 16px;
+    font-weight: bolder;
+}
+input{
+    width: 60%;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    outline: none;
+    text-align: center;
+}
